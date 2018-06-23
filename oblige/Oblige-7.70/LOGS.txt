@@ -1,0 +1,354 @@
+====== START OF OBLIGE LOGS ======
+
+********************************************************
+** OBLIGE Level Maker 7.70 (C) 2006-2017 Andrew Apted **
+********************************************************
+
+Library versions: FLTK 1.3.3
+
+   home_dir: C:\Users\guotata\Anaconda3\envs\py3\Lib\site-packages\oblige\Oblige-7.70
+install_dir: C:\Users\guotata\Anaconda3\envs\py3\Lib\site-packages\oblige\Oblige-7.70
+config_file: C:\Users\guotata\Anaconda3\envs\py3\Lib\site-packages\oblige\Oblige-7.70/CONFIG.txt
+
+Loading language list: C:\Users\guotata\Anaconda3\envs\py3\Lib\site-packages\oblige\Oblige-7.70/language/LANGS.txt
+DONE.
+
+Loading options file: C:\Users\guotata\Anaconda3\envs\py3\Lib\site-packages\oblige\Oblige-7.70/OPTIONS.txt
+DONE.
+
+Detected user language: 'zh'
+No translation file: language/zh.po
+Using the default language (English)
+
+Initializing VFS...
+DONE.
+
+Scanning for addons....
+  found: no_hang_lamp.pk3 (Disabled)
+DONE
+
+
+--- OPENING LUA VM ---
+
+Loading main script: oblige.lua
+DONE.
+
+~~ Oblige Lua initialization begun ~~
+
+Loading all games...
+Loading all engines...
+Loading all modules...
+
+~~ Completed Lua initialization ~~
+
+Loading config file: C:\Users\guotata\Anaconda3\envs\py3\Lib\site-packages\oblige\Oblige-7.70/CONFIG.txt
+DONE.
+
+Saving config file...
+DONE.
+
+Created WAD file: C:\Users\guotata\Desktop\endless_night.wad
+
+
+~~~~~~~ Making Levels ~~~~~~~
+
+seed = 1878742904
+
+---- Game Settings ----
+
+game = doom2
+engine = boom
+length = single
+theme = original
+
+---- Architecture ----
+
+size = regular
+outdoors = mixed
+caves = mixed
+liquids = more
+hallways = mixed
+teleporters = mixed
+steepness = heaps
+
+---- Monsters ----
+
+mons = normal
+strength = crazy
+ramp_up = medium
+bosses = harder
+traps = mixed
+cages = mixed
+
+---- Pickups ----
+
+health = heaps
+ammo = less
+weapons = very_late
+items = heaps
+secrets = mixed
+
+---- Other Modules ----
+
+@doom_mon_control = 1
+  Spiderdemon = more
+  caco = default
+  gunner = default
+  skull = default
+  demon = none
+  knight = less
+  vile = default
+  zombie = default
+  Cyberdemon = default
+  ss_nazi = default
+  baron = heaps
+  spectre = more
+  arach = default
+  mancubus = more
+  revenant = more
+  pain = default
+  imp = insane
+  shooter = default
+
+@doom_weapon_control = 0
+
+@export_map = 0
+
+@misc = 0
+
+@music_swapper = 1
+
+@sky_generator = 1
+
+@small_spiderdemon = 1
+
+-- END --
+Loading prefabs from: 'games/doom/fabs'
+OK
+
+Sky generator:
+  1 = SKY_CLOUDS
+    + BROWN_HILLS
+  2 = BROWNISH_CLOUDS
+    + GREENISH_HILLS
+  3 = STARS
+    + HELL_HILLS
+
+
+Theme for level MAP01 = tech
+
+Special levels:
+  none
+Game title: Endless Night
+
+Game sub-title: A Dreaded Obligation
+
+Episode 1 title: As The World Burns
+
+
+
+~~~~~~| MAP01 |~~~~~~
+
+Styles = 
+{
+  ambushes = heaps
+  barrels = some
+  big_rooms = heaps
+  cages = some
+  caves = heaps
+  cycles = heaps
+  doors = heaps
+  ex_floors = few
+  fences = few
+  hallways = few
+  islands = heaps
+  keys = some
+  lakes = few
+  liquids = more
+  outdoors = some
+  parks = heaps
+  pictures = some
+  porches = few
+  secrets = some
+  steepness = heaps
+  switches = none
+  symmetry = few
+  teleporters = few
+  traps = few
+  windows = some
+}
+
+Liquid: nukage (usage 70%)
+
+Darkness falls across the land...
+
+
+--==| Creating Rooms |==--
+
+Map size target: 34x28 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+                                             GGGGGGG
+                                      LL     GGGGGGG
+                                LL    LL        GGG
+                              LLLL LL LL LL     GGG
+                          LLL LLLL LL LLLLL     GGGGG
+                          LLLLLLLL LLLLLLLLL    GGGGG GGG
+                          LLLLLLLLLLLLLLLLLL  GGGGGGG\GGGGGG
+                          LLLLLLLLLLLLLLLLLGGGGGGGGGGGGGGGGG
+                           LL LL LLLLLLLEE GGGGGGGGGGGGGGGG
+                              LL LL  LLLEE GG GG GGGG/ GGGG
+                            LLLL/LLL\  EEEEEBBBBBGGDDDDDGGG
+                            LL  L/L\LLLEEEEEBBBBBGGDDDDDDDDDD
+                           LLLLLLLLLLLL EEEEBBBBBGGDDDDDDDDDDDD
+                           LLLLLL\L/LLL EE  BBBBB DDDDDDDDDDDDD
+                              E \LLL/EEEEEEBBBBBBBDDDDDDDDDDDDD
+                            JJEEELLEEEEEEEEBBBBBBBDDDDDDDDDDDDDD
+                            JJEEEEEEEEEEEEBBBBBBBBDDDDDDDDDDDDDD
+                         JJJJJ EEEEEEEEEEEBBBBBBBBDDDDDDDDDDDDDD
+                       JJJJJJJEEEEpppEEEEEBBBBBBBHHHHAADDD DDDD
+                       JJJJJJJEEEEpppEEEEEBBBBBBBHHHHAADD  DDDD
+                       JJJJJJJEEEppppEEEEEBBBBBBB HH AAII
+                    JJJJJJJJJJEEEppppp EEEBBBBBBBAAAAAAII
+                    JJJJJJJJJJEEJJ pp  BBBBBBBBBBAAAAAAII
+                      JJJJJJJJJJJJ     BBBBBBBBBBBAAAAIIII
+                      JJJJJJJJJJJJ     BBBBBBBBBBB  AAIIII
+                      JJJ  JJJJJJJ       BBBCCCCC  /AAAAA
+                      JJJ  JJJJJJJ       BBBCCCCCAAAAAAAAAAAA
+                             JJJJJFFF       CCCCCAAAAAAAAAAAA
+                              FF  FFF  FF CCCCCCCC \AAAA
+                             FFFFFFFF  FFCCCCCCCCCCCAAAA
+                             FFFFFFFFFFFFCCCCCCCCCCCAA
+                             FFF  FFFFFFFCCCCCCCCCCCAA
+                              FF  FFFFFFFCCCCCCCCCCCC
+                              FF    FFFFFCCCCCCCCCCCC
+                                    FFFFFFCCCCCCCCCC
+                                       FF   CCCCCCCC
+                                              CCCCCC
+                                                CCC
+                                                CCC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_6
+Maximum of 3 key goals.
+Dividing QUEST_1 @ CONN_5 (ROOM_3 -- ROOM_6)
+Dividing QUEST_2 @ CONN_3 (ROOM_1 -- ROOM_4)
+Dividing QUEST_2 @ CONN_6 (ROOM_4 -- ROOM_7)
+Start room: ROOM_1
+Quest list:
+  QUEST_3 : svolume:505
+  QUEST_4 : svolume:132
+  QUEST_2 : svolume:248
+  QUEST_1 : svolume:66
+Zone quota: 4
+Zone list:
+  ZONE_2 : rooms:5 areas:53
+  ZONE_3 : rooms:2 areas:27
+  ZONE_4 : rooms:3 areas:11
+  ZONE_1 : rooms:2 areas:41
+Other Item quota : 5.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: chain
+Giving weapon: plasma
+Giving weapon: shotty
+Giving weapon: bfg
+Giving weapon: launch
+Giving weapon: super
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 28357 dead regions (of 43143)
+Swallowed 5533 brushes (of 28433)
+Filled 59 gaps (of 6992 total)
+Lighting level...
+Merged 2758 colinear lines
+Rounded 12 square corners
+Aligned 6118 textures
+Merging WAD sections from: games/doom/data/doom_falls.wad
+Opened WAD file: games/doom/data/doom_falls.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/lift_flat.wad
+Opened WAD file: games/doom/data/lift_flat.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/metal_step.wad
+Opened WAD file: games/doom/data/metal_step.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/vine_dude.wad
+Opened WAD file: games/doom/data/vine_dude.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/logos.wad
+Opened WAD file: games/doom/data/logos.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/hang_lamp.wad
+Opened WAD file: games/doom/data/hang_lamp.wad
+Closed WAD file
+
+
+~~~~~~ Finished Making Levels ~~~~~~
+
+Writing WAD directory
+Closed WAD file
+
+GLBSP: Opened PWAD file : C:\Users\guotata\Desktop\endless_night.tmp
+GLBSP: 
+GLBSP: Building normal and GL nodes on MAP01
+GLBSP: 
+GLBSP: Saving WAD as C:\Users\guotata\Desktop\endless_night.wad
+GLBSP: 
+GLBSP: Total serious warnings: 0
+GLBSP: Total minor warnings: 0
+GLBSP: 
+GLBSP: All levels were built successfully.
+Saving options file...
+DONE.
+
+
+TOTAL TIME: 11.22 seconds
+
+
+Quit......
+
+Saving options file...
+DONE.
+
+Saving config file...
+DONE.
+
+
+--- CLOSED LUA VM ---
+
+
+====== END OF OBLIGE LOGS ======
+

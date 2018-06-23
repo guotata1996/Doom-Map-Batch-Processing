@@ -1,0 +1,24 @@
+#include "zcommon.acs"
+#define PLAYER_TID_START 500
+
+global int 0:reward;
+
+int delayInterval = 1;
+
+script 1 OPEN
+{
+    
+}
+
+script 2 ENTER
+{
+	Thing_ChangeTID(0, PLAYER_TID_START+PlayerNumber());
+    SetActorProperty(PLAYER_TID_START + 0, APROP_Invulnerable, 1);
+    SetActorProperty(PLAYER_TID_START + 0, APROP_NoTarget, 1);
+}
+
+script 3 RESPAWN
+{
+    Thing_ChangeTID(PLAYER_TID_START+PlayerNumber(), 0);
+    Thing_ChangeTID(0, PLAYER_TID_START+PlayerNumber());
+}

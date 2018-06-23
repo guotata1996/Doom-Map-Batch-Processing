@@ -1,0 +1,5 @@
+- baselines 对原baselines的a2c文件夹少量修改。运行训练脚本必备。
+- mapconfigurations PyOblige 不同需求的配置示例
+- oblige 用于生成Mapspots/自定义逻辑(用于门的标注)的修改版PyOblige.仅支持windows，其他系统需要自行查找资料修改。
+- mapinfo 修改版PyOblige使用的第三方软件、所用的ACS脚本等。仅供参考，不提供技术支持。
+- 为避免oblige(自动修改地图)在非win系统中运行的困难，提供1000张的修改过地图。详见a2c文件夹下的自述文件。
